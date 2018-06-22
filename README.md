@@ -1,10 +1,11 @@
 # python
 Python project repository
 
-Super Simple Stocks - This is a service based module which fultills the below requirements
+<b>Super Simple Stocks<b> 
+ This is a service based module which fultills the below requirements
 
-Requirements
-Provide working source code that will :-
+Requirements</b>
+Provide working source code that will :-</b>
 a. For a given stock,
   i. Given a market price as input, calculate the dividend yield
   ii. Given a market price as input, calculate the P/E Ratio
@@ -16,8 +17,8 @@ b. Calculate the GBCE All Share Index using the geometric mean of prices for all
 Constraints & Notes
 Written in one of these languages:Python
 
-Required libs:
-flask
+Required libs:</b>
+flask</b>
 flask_caching - for caching the stocks and trades data in memory
 
 Two Endpoints:
