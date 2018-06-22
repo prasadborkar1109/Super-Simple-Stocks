@@ -6,30 +6,30 @@ Python project repository
 
 Requirements<br>
 Provide working source code that will :<br>
-a. For a given stock,
-  i. Given a market price as input, calculate the dividend yield
-  ii. Given a market price as input, calculate the P/E Ratio
+a. For a given stock,<br>
+  i. Given a market price as input, calculate the dividend yield<br>
+  ii. Given a market price as input, calculate the P/E Ratio<br>
   iii. Record a trade, with timestamp, quantity of shares, buy or sell indicator and
-  trade price
+  trade price<br>
   iv. Calculate Volume Weighted Stock Price based on trades in past 15 minutes <br>
 b. Calculate the GBCE All Share Index using the geometric mean of prices for all stocks
 
-Constraints & Notes
+Constraints & Notes:<br>
 Written in one of these languages:Python
 
 Required libs:<br>
 flask<br>
 flask_caching - for caching the stocks and trades data in memory
 
-Two Endpoints:
-URL: http://localhost:5000/stockService/calculatePerTrade
-Method: POST
-Request JSON - {"trade" : {"symbol":"ALE","quantity":150,"indicator":"Buy","tradePrice":6598},"marketPrice":200}
-Calculates data points mentioned in point a
+Two Endpoints:<br>
+URL: http://localhost:5000/stockService/calculatePerTrade<br>
+Method: POST<br>
+Request JSON - {"trade" : {"symbol":"ALE","quantity":150,"indicator":"Buy","tradePrice":6598},"marketPrice":200}<br>
+Calculates data points mentioned in point a<br>
+<br>
+URL: http://localhost:5000/stockService/calculateAllShareIndex<br>
+Method: GET<br>
+No input params<br>
 
-URL: http://localhost:5000/stockService/calculateAllShareIndex
-Method: GET
-No input params
-
-Setup:
+Setup:<br>
 Run   stockservice.py file locally and call the webservices
