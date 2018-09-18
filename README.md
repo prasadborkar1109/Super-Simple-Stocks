@@ -1,8 +1,6 @@
-# python
-Python project repository
+# Super Simple Stocks
 
-<b>Super Simple Stocks</b><br> 
- This is a service based module which fulfills the below requirements
+This is a service based module which fulfills the below requirements
 
 Requirements<br>
 Provide working source code that will :<br>
